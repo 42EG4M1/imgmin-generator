@@ -1,4 +1,4 @@
-# imgmin generator
+# Imgmin Generator
 
 Image compression with gulp-imagemin.
 
@@ -14,11 +14,13 @@ Image compression with gulp-imagemin.
     $ npm i
 
 ### Create directory
-Move the image you want to compress to the images directory.  
+Move the image you want to compress to the images directory.
+
     $ mkdir images
 
 ### Build
-A compressed image is generated in dist directory.  
+A compressed image is generated in dist directory.
+
     $ npm run img
 
     // build with watch
