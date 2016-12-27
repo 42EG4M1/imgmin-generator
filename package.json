@@ -1,0 +1,27 @@
+{
+  "name": "imgmin-generator",
+  "version": "1.0.0",
+  "description": "imagemin and watch",
+  "main": "gulpfile.js",
+  "scripts": {
+    "gulp": "gulp",
+    "img": "gulp imagemin"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/42EG4M1/imgmin-generator.git"
+  },
+  "author": "Tatsuya Azegami",
+  "license": "GPL-2.0+",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.11",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2"
+  }
+}
