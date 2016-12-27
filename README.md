@@ -14,12 +14,12 @@ Image compression with gulp-imagemin.
     $ npm i
 
 ### Create directory
+Move the image you want to compress to the images directory.  
     $ mkdir images
-    // Move the image you want to compress to images directory.
 
 ### Build
+A compressed image is generated in dist directory.  
     $ npm run img
-    // A compressed image is generated in dist directory.
 
     // build with watch
     $ npm run watch
